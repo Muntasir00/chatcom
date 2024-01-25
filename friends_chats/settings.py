@@ -61,7 +61,10 @@ SECRET_KEY = 'django-insecure-nvowr=2+e_x8u4djfezdklk6k&9@=e4e_it+8^y#v9m1n81mj!
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-mthabs-chatcom-zplmp0jtbu.us2.codeanyapp.com','chatcom-ec4ad238849d.herokuapp.com','127.0.0.1']
-
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # Example for a development server
+    # Add your production domain(s) here
+]
 
 # Application definition
 
