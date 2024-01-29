@@ -203,6 +203,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dnt7oro5y',
+    'API_KEY': '427836411839368',
+    'API_SECRET': 'HEvssJ6V-IgG32HhY6i_p_vosHA',
+}
+
+DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
