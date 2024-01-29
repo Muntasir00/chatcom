@@ -209,7 +209,10 @@ CLOUDINARY_STORAGE = {
     'API_SECRET': 'HEvssJ6V-IgG32HhY6i_p_vosHA',
 }
 
-DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
+
+
+
+
 
 
 # Default primary key field type
